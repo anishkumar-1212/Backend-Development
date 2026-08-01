@@ -1,5 +1,5 @@
 const fs = require("fs");
-fs.writeFile(
+fs.readFile(
   "notes.txt",
   {
     encoding: "utf-8",

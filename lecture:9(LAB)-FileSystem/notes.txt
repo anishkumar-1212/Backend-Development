@@ -1,2 +1,1 @@
-fs module is used to interact with the computer's internal file system.
-It is inbuild node js module and doesnot require extra installation.
+i am the bost bro!. currently following the nodes lecture very properly
