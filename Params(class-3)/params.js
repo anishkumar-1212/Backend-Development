@@ -71,17 +71,18 @@ let users = [
 //   res.json(users);
 // });
 
-app.get("/deleteuser", (req, res) => {
-  const { id, name, age } = req.query;
-  let length = users.length;
-  for (let i = 0; i < length; i++) {
-    if (users[i].id == id) {
-      users[i].name = name;
-      users[i].age = age;
-    }
-  }
-  return res.json(users);
-});
+// app.get("/deleteuser", (req, res) => {
+//   const { id, name, age } = req.query;
+//   let length = users.length;
+//   for (let i = 0; i < length; i++) {
+//     if (users[i].id == id) {
+//       users[i].name = name;
+//       users[i].age = age;
+//     }
+//   }
+//   return res.json(users);
+// });
+
 let PORT = 5001;
 app.listen(PORT, () => {
   console.log(`server is listening`);
